@@ -1,31 +1,25 @@
 @media screen and (width: 2560px) {
-  .supporting {
-    float: left;
-    width: 40%;
-  }
-
-  aside {
-    float: right;
-  }
-
-  body {
-      background-color: chartreuse;
-  }
+    .supporting {
+        width: 80%;
+    }
 }
 
 @media screen and (width: 1366px) {
     .supporting {
-        float: left;
         width: 50%;
-    }
-
-    aside {
-        float: right;
-    }
-
-    body {
-        background-color: crimson;
     }
 }
 
+
+.supporting {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
+body {
+    background-color: antiquewhite;
+}
 
