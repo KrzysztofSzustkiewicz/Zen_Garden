@@ -1,8 +1,14 @@
-.supporting {
+@media screen and (min-width: 1000px) {
+  .supporting {
     float: left;
-    width: 80%;
+    width: 40%;
+  }
+
+  aside {
+    float: right;
+  }
 }
 
-aside {
-    float: right;
-}
+
+
+
