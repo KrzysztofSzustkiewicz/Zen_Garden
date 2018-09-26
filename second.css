@@ -30,7 +30,10 @@ aside {
 }
 
 body {
-    background: url('dark-souls-bg.jpg') no-repeat;
+    background: url('dark-souls-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 
 }
@@ -41,5 +44,3 @@ body {
     color: white;
     text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px #F90, 0px -20px 40px #C33;
 }
-
- 2px 2px 5px orangered
