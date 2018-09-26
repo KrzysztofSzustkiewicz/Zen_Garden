@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (width: 2560px) {
   .supporting {
     float: left;
     width: 40%;
@@ -7,8 +7,25 @@
   aside {
     float: right;
   }
+
+  body {
+      background-color: chartreuse;
+  }
 }
 
+@media screen and (width: 1366px) {
+    .supporting {
+        float: left;
+        width: 50%;
+    }
 
+    aside {
+        float: right;
+    }
+
+    body {
+        background-color: crimson;
+    }
+}
 
 
