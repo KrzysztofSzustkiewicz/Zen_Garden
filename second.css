@@ -14,7 +14,7 @@
 }
 
 aside {
-    float: right;
+    float: left;
 }
 
 body {
@@ -23,13 +23,40 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 
-.intro h1 {
+#zen-summary, #zen-preamble {
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 1000px;
+}
+
+.intro h1, h2 {
     font-family: "Optimus Princeps", serif;
     color: white;
     text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px #F90, 0px -20px 40px #C33;
+}
+
+.intro h2 {
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.intro h1 {
+    margin-bottom: 5px;
+}
+
+.supporting {
+    margin-top: 1500px;
+}
+
+.wrapper {
+    background: url('ds-wp.jpg') center ;
+    clip-path: polygon(55% 8%, 90% 4%, 63% 75%, 32% 89%, 10% 57%, 24% 21%);
+    position: fixed;
+    top: 30%;
+    width: 500px;
+    height: 500px;
 }
 
 @media screen and (width: 2560px) {
