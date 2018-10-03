@@ -13,16 +13,18 @@
     height: 100%;
 }
 
-aside {
-    float: left;
-}
-
 body {
     background: url('dark-souls-bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+abbr {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
 }
 
 #zen-summary, #zen-preamble {
@@ -51,17 +53,38 @@ body {
 }
 
 .wrapper {
-    background: url('ds-wp.jpg') center ;
-    clip-path: polygon(55% 8%, 90% 4%, 63% 75%, 32% 89%, 10% 57%, 24% 21%);
+    background-color: rgba(210, 170, 89, 0.4);
+    clip-path: ellipse(50% 50% at 50% 50%);
     position: fixed;
-    top: 30%;
+    top: 20%;
+    left: 65%;
     width: 500px;
-    height: 500px;
+    height: 772px;
+    font-family: "Optimus Princeps";
 }
+
+.design-name::after {
+    content: "\a";
+    white-space: pre;
+}
+
+#design-selection {
+    top: 50px;
+}
+
+#design-archives {
+    top: 500px;
+}
+
+#design-selection, #design-archives, #zen-resources {
+    position: absolute;
+    left: 150px;
+}
+
 
 @media screen and (width: 2560px) {
     .supporting {
-        width: 80%;
+        width: 50%;
     }
     h1 {
         font-size: 100px;
