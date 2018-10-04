@@ -27,10 +27,73 @@ abbr {
   text-decoration: none !important;
 }
 
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 30%;
+}
+
+.zen-validate-html {
+    background: rgba(255, 255, 255, 1);
+    clip-path: circle(50% at 50% 50%);
+    text-align: center;
+    content: url("html.png");
+    width: 50px;
+    height: 50px;
+}
+
+.zen-validate-css {
+    background: rgba(255, 255, 255, 1);
+    clip-path: circle(50% at 50% 50%);
+    text-align: center;
+    content: url("css.png");
+    width: 50px;
+    height: 50px;
+}
+
+.zen-license {
+    background: rgba(255, 255, 255, 1);
+    clip-path: circle(50% at 50% 50%);
+    text-align: center;
+    content: url("cc.png");
+    width: 50px;
+    height: 50px;
+}
+
+.zen-accessibility {
+    background: rgba(255, 255, 255, 1);
+    clip-path: circle(50% at 50% 50%);
+    text-align: center;
+    content: url("faq.png");
+    width: 50px;
+    height: 50px;
+}
+
+.zen-github {
+    background: rgba(255, 255, 255, 1);
+    clip-path: circle(50% at 50% 50%);
+    text-align: center;
+    content: url("github.svg");
+    width: 50px;
+    height: 50px;
+}
+
 #zen-summary, #zen-preamble {
-    margin-top: 200px;
-    margin-left: 50px;
-    width: 1000px;
+    margin-left: 10px;
+    width: 550px;
+    color: white;
+    font-family: "Optimus Princeps", serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#zen-summary {
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+
+#zen-preamble {
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
 }
 
 .intro h1, h2 {
@@ -42,6 +105,7 @@ abbr {
 .intro h2 {
     margin-top: 5px;
     margin-left: 150px;
+    margin-bottom: 150px;
 }
 
 .intro h1 {
@@ -49,18 +113,28 @@ abbr {
 }
 
 .supporting {
-    margin-top: 1500px;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 550px;
+    color: white;
+    font-family: "Optimus Princeps", serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#zen-participation a, #zen-requirements a, #zen-summary a {
+    color: red;
 }
 
 .wrapper {
-    background-color: rgba(210, 170, 89, 0.4);
-    clip-path: ellipse(50% 50% at 50% 50%);
-    position: fixed;
-    top: 20%;
-    left: 65%;
-    width: 500px;
-    height: 772px;
-    font-family: "Optimus Princeps";
+    background-color: rgba(0, 0, 0, 0.5);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 25% 97%, 18% 94%, 10% 92%, 10% 8%, 18% 6%, 25% 3% );
+    position: absolute;
+    top: 20px;
+    left: 75%;
+    width: 300px;
+    height: 630px;
 }
 
 .design-name::after {
@@ -69,16 +143,40 @@ abbr {
 }
 
 #design-selection {
-    top: 50px;
+    top: 30px;
 }
 
 #design-archives {
-    top: 500px;
+    top: 360px;
+}
+
+#zen-resources {
+    top: 450px;
 }
 
 #design-selection, #design-archives, #zen-resources {
     position: absolute;
-    left: 150px;
+    left: 50px;
+    text-align: left;
+}
+
+#design-selection, #design-archives, #zen-resources {
+    font-size: 12px;
+    font-family: "Optimus Princeps", serif;
+    color: white;
+}
+
+#design-selection a, #design-archives a, #zen-resources a {
+    font-size: 16px;
+    font-family: "Optimus Princeps", serif;
+    color: springgreen;
+
+}
+
+#design-selection, #design-archives, #zen-resources h3 {
+    font-size: 15px;
+    font-family: "Optimus Princeps", serif;
+    color: white;
 }
 
 
@@ -93,7 +191,6 @@ abbr {
 
 @media screen and (width: 1366px) {
     .supporting {
-        width: 60%;
     }
     h1 {
         font-size: 60px;
